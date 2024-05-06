@@ -1,3 +1,13 @@
-com/beans/library/dtos/FullSchoolResponse$FullSchoolResponseBuilder.class
-com/beans/library/dtos/StudentDto.class
+com/beans/library/config/JwtService.class
+com/beans/library/dtos/AuthenticateRequest$AuthenticateRequestBuilder.class
+com/beans/library/config/JwtAuthenticationFilter.class
+com/beans/library/dtos/RegisterRequest.class
+com/beans/library/dtos/Role.class
 com/beans/library/dtos/FullSchoolResponse.class
+com/beans/library/dtos/AuthenticationResponse$AuthenticationResponseBuilder.class
+com/beans/library/dtos/FullSchoolResponse$FullSchoolResponseBuilder.class
+com/beans/library/dtos/RegisterRequest$RegisterRequestBuilder.class
+com/beans/library/dtos/AuthenticationResponse.class
+com/beans/library/dtos/Permission.class
+com/beans/library/dtos/StudentDto.class
+com/beans/library/dtos/AuthenticateRequest.class

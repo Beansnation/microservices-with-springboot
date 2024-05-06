@@ -27,7 +27,7 @@ public class SchoolController {
     }
 
     @GetMapping("/get/{school-id}")
-    public ResponseEntity<FullSchoolResponse> findAllSchools(@PathVariable("school-id") Integer schoolId){
-        return ResponseEntity.ok(schoolService.findSchoolsWithStudents(schoolId));
+    public ResponseEntity<FullSchoolResponse> findAllSchools(@PathVariable("school-id") Integer schoolId, @RequestHeader("Authorization") String token){
+        return ResponseEntity.ok(schoolService.findSchoolsWithStudents(schoolId, token));
     }
 }

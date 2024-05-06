@@ -6,22 +6,19 @@ eureka:
       defaultZone: http://localhost:8761/eureka
 
 server:
-  port: 8757
+  port: 8758
 spring:
   application:
-    name: schools
+    name: users
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/schools
+    url: jdbc:mysql://localhost:3306/security
     username: root
     password: zest12345
   jpa:
     hibernate:
       ddl-auto: update
     database: mysql
-
-service:
-  students-url: http://localhost:8222/api/v1/students
 
 management:
   tracing:

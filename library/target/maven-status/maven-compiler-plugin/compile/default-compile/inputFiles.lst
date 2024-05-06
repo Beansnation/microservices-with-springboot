@@ -1,2 +1,9 @@
-/Users/davidadegborioye/IdeaProjects/microservices/library/src/main/java/com/beans/library/dtos/StudentDto.java
-/Users/davidadegborioye/IdeaProjects/microservices/library/src/main/java/com/beans/library/dtos/FullSchoolResponse.java
+/Users/davidadegborioye/IdeaProjects/microservices-with-springboot/library/src/main/java/com/beans/library/config/JwtAuthenticationFilter.java
+/Users/davidadegborioye/IdeaProjects/microservices-with-springboot/library/src/main/java/com/beans/library/config/JwtService.java
+/Users/davidadegborioye/IdeaProjects/microservices-with-springboot/library/src/main/java/com/beans/library/dtos/Permission.java
+/Users/davidadegborioye/IdeaProjects/microservices-with-springboot/library/src/main/java/com/beans/library/dtos/AuthenticateRequest.java
+/Users/davidadegborioye/IdeaProjects/microservices-with-springboot/library/src/main/java/com/beans/library/dtos/Role.java
+/Users/davidadegborioye/IdeaProjects/microservices-with-springboot/library/src/main/java/com/beans/library/dtos/RegisterRequest.java
+/Users/davidadegborioye/IdeaProjects/microservices-with-springboot/library/src/main/java/com/beans/library/dtos/AuthenticationResponse.java
+/Users/davidadegborioye/IdeaProjects/microservices-with-springboot/library/src/main/java/com/beans/library/dtos/FullSchoolResponse.java
+/Users/davidadegborioye/IdeaProjects/microservices-with-springboot/library/src/main/java/com/beans/library/dtos/StudentDto.java

@@ -22,10 +22,10 @@ public class SchoolService {
         return schoolRepository.findAll();
     }
 
-    public FullSchoolResponse findSchoolsWithStudents(Integer schoolId) {
+    public FullSchoolResponse findSchoolsWithStudents(Integer schoolId, String token) {
         var school = schoolRepository.findById(schoolId)
                 .orElseThrow( ()-> new RuntimeException("school does not exist"));
-        var students = studentClient.findSchoolsWithStudentsUsingSchoolId(schoolId);
+        var students = studentClient.findSchoolsWithStudentsUsingSchoolId(schoolId, token);
         return FullSchoolResponse.builder()
                 .name(school.getName())
                 .email(school.getEmail())

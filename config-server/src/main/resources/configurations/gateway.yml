@@ -16,11 +16,29 @@ spring:
           uri: lb://students
           predicates:
             - Path=/api/v1/students/**
+          filters:
+            - AuthenticationFilter
+
         - id: schools
           uri: lb://schools
           predicates:
             - Path=/api/v1/schools/**
+          filters:
+            - AuthenticationFilter
 
+        - id: users
+          uri: lb://users
+          predicates:
+            - Path=/api/v1/users/**
+          filters:
+            - AuthenticationFilter
+  logging:
+    level:
+      org:
+        springframework:
+          security: DEBUG
+          cloud:
+            gateway: DEBUG
 management:
   tracing:
     sampling:
